@@ -1,0 +1,21 @@
+LECTOR EN VOZ ALTA
+==================
+
+Esta carpeta contiene el lector completo. No necesita cuenta de Claude ni ningun otro servicio para funcionar.
+
+QUE HAY AQUI
+- index.html   La pagina del lector.
+- lib/         Los componentes que abren PDF, Word, EPUB y reconocen texto en documentos escaneados.
+  Las dos cosas deben ir siempre juntas, con estos mismos nombres.
+
+COMO PUBLICARLO PARA ABRIRLO DESDE CUALQUIER CELULAR O COMPUTADORA
+Sube la carpeta completa a un servicio de alojamiento de sitios estaticos (por ejemplo Netlify, GitHub Pages o Cloudflare Pages).
+El servicio te da un enlace; ese enlace es el que compartes.
+
+SI SOLO HACES DOBLE CLIC EN index.html
+Abre en la computadora y lee PDF con texto, Word, EPUB y TXT, pero el reconocimiento de documentos escaneados
+no funciona de esa manera. Para tener todo, publicalo como se indica arriba.
+
+PRIVACIDAD
+Los documentos se procesan en el dispositivo de quien los abre; no se suben a ningun servidor.
+Las voces marcadas "en linea" envian el texto al proveedor de la voz.
